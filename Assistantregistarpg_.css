@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    
+}
+.form-group{
+    margin-left: 1100px;
+}
+.btn{
+    padding: 40px;
+}
+#child3,#child4{
+ width: 250px;
+}
+.wrapper{
+    padding-top: 30px;
+    width: 50vw;
+    margin-left: 370px;
+}
+.dpgcdet{
+    text-align: center;
+}
+.dpgcdet h1{
+    margin-bottom:20px;
+    border-bottom: 5px solid black;
+}
+.dpgc{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(109, 109, 109);
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+.dpgc img{
+    width: 80px;
+    border-radius: 90%;
+    margin-left: 20px;
+}
+.dpgc h2{
+    margin-left: 20px;
+}
+.studentdet{
+    text-align: center;
+}
+.studentdet h1{
+    margin-bottom:20px;
+    border-bottom: 5px solid black; 
+}
+.studentdet a{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(109, 109, 109);
+    text-decoration: none;
+    color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.studentdet a h2{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: 200;
+}
+.studentdet a img{
+    width: 50px;
+    border-radius: 90%;
+    margin-left: 20px;
+}
+.footer{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+#laststudent{
+    border-bottom: 1px solid white ;
+}
+
+@media screen and (max-width:400px) and (min-width:200px){
+    .wrapper{
+        margin-left: 30px;
+        margin-top: -50px;
+        width: 80vw;
+    }
+    .form-group{
+        margin-left:0px;
+    } 
+    .dpgc h2{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .dpgc img{
+        width: 50px;
+        border-radius: 90%;
+        margin-left: 20px;
+    }
+    .studentdet a h2{
+        text-align: left;
+        margin-left: 10px;
+        font-weight: 200;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1280px) and (min-width:401px){
+    .wrapper{
+        margin-left: 30px;
+        margin-top: -50px;
+        width: 80vw;
+    }
+    .form-group{
+        margin-left:0px;
+    } 
+    .dpgc h2{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .dpgc img{
+        width: 50px;
+        border-radius: 90%;
+        margin-left: 20px;
+    }
+    .studentdet a h2{
+        text-align: left;
+        margin-left: 10px;
+        font-weight: 200;
+        font-size: 15px;
+    }
+}
